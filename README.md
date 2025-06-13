@@ -1,8 +1,6 @@
 # Salesforce Lead Tracker
 
 A custom Salesforce project to track and manage leads. Built using:
-- Apex
-- SOQL
 - Salesforce Flows
 - Lightning App Builder
 
@@ -13,7 +11,7 @@ A custom Salesforce project to track and manage leads. Built using:
 - Visual Flow automation
 
 ## Project Setup
-All changes made in a Salesforce Developer Org. Code samples, flow screenshots, and setup steps included.
+All changes were made in a Salesforce Developer Org. Included in this repo are code samples, flow screenshots, field documentation, and setup notes.
 
 ## Author
 Devadathan Namboothiri P 
