@@ -65,5 +65,17 @@ Salesforce Developer & Trailblazer
 [GitHub Profile](https://github.com/Devadathan-dev)
 
 ---
+## 🎓 Key Salesforce Badges
+
+[![Apex Basics & Database](https://badges.salesforce.com/apex-basics-database.svg)](https://trailhead.salesforce.com/en/content/learn/modules/apex_database)
+
+[![Flow Builder Basics](https://badges.salesforce.com/flow-builder-basics.svg)](https://trailhead.salesforce.com/en/content/learn/modules/flow-builder-basics)
+
+[![Data Modeling](https://badges.salesforce.com/data-modeling.svg)](https://trailhead.salesforce.com/en/content/learn/modules/data-modeling)
+
+[![Lightning Experience Customization](https://badges.salesforce.com/lightning-experience-customization.svg)](https://trailhead.salesforce.com/en/content/learn/modules/lightning_experience_customization)
+
+[![Platform Development Basics](https://badges.salesforce.com/platform-development-basics.svg)](https://trailhead.salesforce.com/en/content/learn/modules/platform_dev_basics)
+
 
 
