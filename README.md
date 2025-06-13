@@ -1,17 +1,69 @@
-# Salesforce Lead Tracker
+# 📩 Salesforce Lead Tracker
 
-A custom Salesforce project to track and manage leads. Built using:
-- Salesforce Flows
-- Lightning App Builder
+A Salesforce automation project that tracks and manages Leads, and sends follow-up email reminders to Lead Owners when the `Follow_up__c` date matches today.
 
-## Features
-- Custom fields on the Lead object
-- Auto-assignment of leads
-- Lead status tracking
-- Visual Flow automation
+## 🛠️ Built With
 
-## Project Setup
-All changes were made in a Salesforce Developer Org. Included in this repo are code samples, flow screenshots, field documentation, and setup notes.
+- **Salesforce Flows** (Visual Automation)
+- **Lightning App Builder**
+- **Custom Fields**
+- 🧼 100% Declarative (No Apex or SOQL)
 
-## Author
-Devadathan Namboothiri P 
+---
+
+## ✨ Features
+
+- ✅ **Follow-up Reminder Flow**  
+  Automatically sends follow-up emails to Lead Owners for leads where `Follow_up__c = TODAY`.
+
+- ✅ **Email Log Creation**  
+  Flow creates a record in the custom object `Email_Log__c` to track sent emails.
+
+- ✅ **Custom Field**  
+  `Follow_up__c`: A custom Date field on the Lead object.
+
+- ✅ **Tested with Real Data**  
+  Verified email delivery and logging with actual test Leads and real user Owners.
+
+---
+
+## 📂 Flow Details
+
+- Flow File: [`WORKING_FLOW.flow-meta.xml`](flows/WORKING_FLOW.flow-meta.xml)
+- Screenshots in the `flows/` folder:
+  - `flow.png`, `flow-zoom1.png`, `log-email-assignment.png`, `email-log-record.png`, etc.
+
+---
+
+## 🧪 Test Summary
+
+- 🧪 **Test Dates:** 6 June & 9 June 2025
+- ✅ **Email Sent To:**
+  - Test Lead: *Saul Goodman*
+  - Real Lead Owner: *Devadathan Namboothiri P*
+- 🛠️ **Fixes Made:**
+  - Corrected Owner lookup using `OwnerId`
+  - Removed `logEmailOnSend = true` (which caused invalid `whatId` errors)
+  - Logging enhancement using `Email_Log__c`
+  - Created variable 'LOG' to store essential fields
+---
+
+## 📝 Field & Setup Notes
+
+- Field documentation: [`field-list.md`](setup-notes/field-list.md)
+- Logic:  
+  Flow finds all Leads where:
+  Follow_up__c == Today
+  and sends follow-up email to Lead Owner with all details.
+
+---
+
+## 👤 Author
+
+**Devadathan Namboothiri P**  
+Salesforce Developer & Trailblazer  
+[GitHub Profile](https://github.com/your-github-handle)
+
+---
+
+
