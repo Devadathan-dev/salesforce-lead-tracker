@@ -62,7 +62,7 @@ A Salesforce automation project that tracks and manages Leads, and sends follow-
 
 **Devadathan Namboothiri P**  
 Salesforce Developer & Trailblazer  
-[GitHub Profile](https://github.com/your-github-handle)
+[GitHub Profile](https://github.com/Devadathan-dev)
 
 ---
 
